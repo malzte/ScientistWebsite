@@ -1,13 +1,24 @@
 body {
-  font-family: Arial;
   margin: 0;
-  background-color:rgba(241, 239, 239, 0.884)
+  background-color: rgba(235, 229, 229, 0.918)
 }
 #header{
   background-color: #201d1b;
   padding: 0;
   border: 100px;
   border-color: black;
+}
+
+#header li a:hover{
+  color:rgb(143, 143, 197)
+}
+
+h2{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.inventions{
+  font-family: 'IBM Plex Mono', monospace;
 }
 .container{
   width: 1500px;
@@ -46,5 +57,52 @@ body {
   font-size: 30px;
   font-family: 'Cinzel', serif;
   margin: 0 auto;
+  
 }
 
+.box{
+  box-sizing: border-box;
+  width:100%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid grey;
+  margin-top: 10px;
+  background-color: #c5bfb5;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.teslacoil,.motor,.radio{
+  box-sizing: border-box;
+  width: 30%;
+  padding: 0;
+  border: 2px solid gray;
+  border-radius: 25px;
+  display: table-cell;
+  color:white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+.teslacoil{
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("teslacoil.jfif");
+}
+
+.motor {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("motor.jfif");
+}
+
+.radio {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("radio.jpg");
+}
+
+.articles a{
+  color: black;
+  font-size: 17px;
+}
+
+.articles a:hover{
+  color:cornflowerblue;
+}
